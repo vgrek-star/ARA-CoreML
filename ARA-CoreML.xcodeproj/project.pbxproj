@@ -140,6 +140,7 @@
 				89BBF9B1268E9AE300FA46B6 /* Sources */,
 				89BBF9B2268E9AE300FA46B6 /* Frameworks */,
 				89BBF9B3268E9AE300FA46B6 /* Resources */,
+				201A0E099274EC91D21575EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +196,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		201A0E099274EC91D21575EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARA-CoreML/Pods-ARA-CoreML-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARA-CoreML/Pods-ARA-CoreML-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARA-CoreML/Pods-ARA-CoreML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		944F403711F2A438671BDD4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

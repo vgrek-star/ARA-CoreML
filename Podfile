@@ -6,6 +6,6 @@ target 'ARA-CoreML' do
   use_frameworks!
 
   # Pods for ARA-CoreML
-  #pod 'ZIPFoundation', '~> 0.9'
+  pod 'ZIPFoundation', '~> 0.9'
 
 end
