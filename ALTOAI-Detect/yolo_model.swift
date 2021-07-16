@@ -1,6 +1,6 @@
 //
 //  yolo_model.swift
-//  ARA-CoreML
+//  ALTOAI-Detect
 //
 //  Created by Volodymyr Grek on 15.07.2021.
 //
