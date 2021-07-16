@@ -30,7 +30,7 @@
 		0D712D8C269F8E490031D2E3 /* yolo_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yolo_model.swift; sourceTree = "<group>"; };
 		0D712D8E26A02BE90031D2E3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		59CFA31D914711661177F13E /* Pods-ARA-CoreML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARA-CoreML.release.xcconfig"; path = "Target Support Files/Pods-ARA-CoreML/Pods-ARA-CoreML.release.xcconfig"; sourceTree = "<group>"; };
-		89BBF9B5268E9AE300FA46B6 /* ARA-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARA-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BBF9B5268E9AE300FA46B6 /* Alto-Ai-Detect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alto-Ai-Detect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BBF9BC268E9AE400FA46B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89BBF9BF268E9AE400FA46B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89BBF9C1268E9AE400FA46B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		89BBF9B6268E9AE300FA46B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89BBF9B5268E9AE300FA46B6 /* ARA-CoreML.app */,
+				89BBF9B5268E9AE300FA46B6 /* Alto-Ai-Detect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89BBF9B4268E9AE300FA46B6 /* ARA-CoreML */ = {
+		89BBF9B4268E9AE300FA46B6 /* Alto-Ai-Detect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89BBF9C4268E9AE400FA46B6 /* Build configuration list for PBXNativeTarget "ARA-CoreML" */;
+			buildConfigurationList = 89BBF9C4268E9AE400FA46B6 /* Build configuration list for PBXNativeTarget "Alto-Ai-Detect" */;
 			buildPhases = (
 				944F403711F2A438671BDD4D /* [CP] Check Pods Manifest.lock */,
 				89BBF9B1268E9AE300FA46B6 /* Sources */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = "ARA-CoreML";
+			name = "Alto-Ai-Detect";
 			productName = "ARA-CoreML";
-			productReference = 89BBF9B5268E9AE300FA46B6 /* ARA-CoreML.app */;
+			productReference = 89BBF9B5268E9AE300FA46B6 /* Alto-Ai-Detect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89BBF9B0268E9AE300FA46B6 /* Build configuration list for PBXProject "ARA-CoreML" */;
+			buildConfigurationList = 89BBF9B0268E9AE300FA46B6 /* Build configuration list for PBXProject "Alto-Ai-Detect" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89BBF9B4268E9AE300FA46B6 /* ARA-CoreML */,
+				89BBF9B4268E9AE300FA46B6 /* Alto-Ai-Detect */,
 			);
 		};
 /* End PBXProject section */
@@ -397,6 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.star.parc.altoaidetect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -420,6 +421,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.star.parc.altoaidetect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -430,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89BBF9B0268E9AE300FA46B6 /* Build configuration list for PBXProject "ARA-CoreML" */ = {
+		89BBF9B0268E9AE300FA46B6 /* Build configuration list for PBXProject "Alto-Ai-Detect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89BBF9C2268E9AE400FA46B6 /* Debug */,
@@ -439,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89BBF9C4268E9AE400FA46B6 /* Build configuration list for PBXNativeTarget "ARA-CoreML" */ = {
+		89BBF9C4268E9AE400FA46B6 /* Build configuration list for PBXNativeTarget "Alto-Ai-Detect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89BBF9C5268E9AE400FA46B6 /* Debug */,
